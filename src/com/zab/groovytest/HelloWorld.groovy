@@ -2,9 +2,9 @@ package com.zab.groovytest
 
 int a = 111
 println a.class
+
 double b = 1.1
 println b.class
-
 
 def c = 200
 println c.class
@@ -27,7 +27,6 @@ println s2
 println s2.class
 println s22.class
 println s222.class
-
 
 //三引号定义字符串，格式直接换行都行，加个反斜杠输出就和实际一致，不加会多一个空行
 def s3 = '''\

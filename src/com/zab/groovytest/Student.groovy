@@ -33,7 +33,7 @@ class Student {
         println "method missing ${name}"
     }
 
-    //invokeMethod的使用，当调用方法不存在时，会调用该方法，
+    //invokeMethod的使用，当methodMissing方法不存在时，会调用该方法
     @Override
     def invokeMethod(String name, args){
         println "invokeMethod ${name}"

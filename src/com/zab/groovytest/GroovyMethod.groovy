@@ -19,5 +19,3 @@ def sayHello3(GroovyClosure c){
     println "hello closure"
 }
 sayHello3({ String name -> println name} as GroovyClosure)
-
-
